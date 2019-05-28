@@ -49,6 +49,5 @@ func Uuid(l int) string {
 		panic(err)
 	}
 	s := fmt.Sprintf("%X", sl)
-	fmt.Println("len is ", l, "truth is ", len(s), "#######", s)
 	return s[:l]
 }
